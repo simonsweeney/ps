@@ -2,3 +2,21 @@
 	width:90%;
 	margin-left:5%;
 }
+
+
+
+
+
+/* News */
+
+.date a {
+  font-weight:bold;
+  font-size: 14px;
+  border-bottom: 1px solid $red;
+  padding-bottom: 3px;
+
+  &:hover {
+  	color:white;
+  	border-bottom: 0px;
+  }
+}

@@ -18,8 +18,20 @@ h1 {
   font-size: $base-font-size * 2.25; // 16 * 2.25 = 36px
 }
 
-h2 {
-  font-size: $base-font-size * 2; // 16 * 2 = 32px
+h2, .news h1 {
+  font-size: 27px; 
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+h2 a, .news h1 a {
+  border-bottom: 1px solid $red;
+  color:white;
+}
+
+h2 a:hover, .news h1 a:hover {
+  border-bottom: 0px solid $red;
+  color:white;
 }
 
 h3 {
@@ -40,6 +52,17 @@ h6 {
 
 p {
   margin: 0 0 ($base-line-height * .5);
+}
+
+
+.text-s {
+  font-size: 15px;
+}
+
+.text-xl {
+  font-size:100px;
+  line-height: 120px;
+  font-weight:normal;
 }
 
 a {
