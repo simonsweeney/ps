@@ -119,33 +119,11 @@ section {@include outer-container;}
 }
 
 
-.text-black {color:$black;}
-.text-gray {color:$gray;}
-.text-red {
-	color:$red;
-	p, h1, h2, h3, h4, h5, h6 {
-		color:$red;
-	}
-}
-
-
-.red-ul {
-	border-bottom: 1px solid $red;
-}
-
-.link-black-ul a {
-	color:$black;
-	border-bottom: 1px solid $red;
-	&:hover {
-		color:$black;
-		border-bottom: 0px solid $red;
-	}
-}
 
 
 .btn {
 	border: 1px solid $red;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: bold;
 	color: $red;
 	text-transform: uppercase;
@@ -155,6 +133,7 @@ section {@include outer-container;}
 .btn:hover {
 	border: 1px solid white;
 	color: white;
+	background:none;
 }
 
 
@@ -180,6 +159,13 @@ section {@include outer-container;}
 	/* look at hundred archive */
 }
 
+
+
+.horizontal li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
 
 
 /*	--------------------------------------------------

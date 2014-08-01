@@ -108,3 +108,50 @@ cite {
     content: '\2014 \00A0';
   }
 }
+
+.bold {
+  font-weight: bold;
+}
+
+
+/* color */
+
+.text-white {
+  color:$white;
+  p, h1, h2, h3, h4, h5, h6, li {
+    color:$white;
+  }
+}
+.text-black {color:$black;}
+.text-gray {color:$gray;}
+.text-red {
+  color:$red;
+  p, h1, h2, h3, h4, h5, h6, li {
+    color:$red !important;
+  }
+}
+
+/* links */
+
+.link-red {
+  a {
+    color: $red;
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+.link-black-ul a {
+  color:$black;
+  border-bottom: 1px solid $red;
+  &:hover {
+    color:$black;
+    border-bottom: 0px solid $red;
+  }
+}
+
+
+.red-ul {
+  border-bottom: 1px solid $red;
+}
