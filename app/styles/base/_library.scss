@@ -18,6 +18,15 @@ video#bgvid {
   background-size: cover;
 }
 
+/* Speakers */
+.person {
+  min-height:330px;
+}
+
+.person p {
+  padding-top: 20px;
+}
+
 
 /* News */
 
@@ -31,4 +40,21 @@ video#bgvid {
   	color:white;
   	border-bottom: 0px;
   }
+}
+
+
+
+
+/* Partners */
+
+.company li {
+  border: 1px solid white;
+  padding-top:60px;
+  padding-bottom:60px;
+}
+
+
+/* Register */
+.price {
+  font-weight:normal;
 }

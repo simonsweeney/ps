@@ -3,7 +3,10 @@ fieldset {
   border: 1px solid $red;
   margin: 0 0 ($base-line-height / 2) 0;
   padding: $base-line-height;
+
 }
+
+
 
 input,
 label,
@@ -11,6 +14,7 @@ select {
   display: block;
   font-family: $form-font-family;
   font-size: 14px;
+  color: $white;
 }
 
 label {
@@ -25,6 +29,11 @@ label {
     display: none;
   }
 }
+.labelLeft {
+  margin-top:12px;
+  font-size: 18px;
+
+}
 
 textarea,
 #{$all-text-inputs},
@@ -36,17 +45,22 @@ select[multiple=multiple] {
   border: 1px solid $red;
   box-shadow: none;
   font-family: $form-font-family;
-  font-size: $form-font-size;
-  margin-bottom: $base-line-height / 2;
+  font-size: 14px;
+   margin-bottom: $base-line-height / 2;
   padding: ($base-line-height / 3) ($base-line-height / 3);
   width: 100%;
+  color:white !important;
+  text-transform: uppercase;
+  font-weight:bold;
+  letter-spacing: 2px;
+  padding-left:15px;
 
   &:hover {
     border-color: $white;
   }
 
   &:focus {
-    border-color: $white;
+    border-color: $white !important;
     box-shadow: none;
     outline: none;
   }
@@ -99,11 +113,29 @@ input[type="submit"]{
   }
 }
 
+::-webkit-input-placeholder {
+   color: $white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: $white;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $white;
+}
+
+:-ms-input-placeholder {  
+   color: $white;
+}
+
+form .bg-gray {
+
+}
 
 .bg-gray fieldset, .bg-gray textarea,
 .bg-gray #{$all-text-inputs},
 .bg-gray select[multiple=multiple]{
-  border: 1px solid $black;
 
   &:hover {
     border-color: $red;

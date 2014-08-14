@@ -22,7 +22,10 @@
  * ---------------------------------------------------------------------------
  */
 
-.header-primary {}
+.header-primary {
+	border-bottom:1px solid $white;
+	opacity:0.8;
+}
 
 .nav-primary {}
 
@@ -37,7 +40,7 @@
 }
 
 nav {
-	font-size:15px;
+	font-size:16px;
 
 	ul li {
 		display: inline;
@@ -56,7 +59,10 @@ nav {
 	}
 }
 
-
+.menu li{
+	position: relative;
+	z-index:999 !important;
+}
 section {@include outer-container;}
 
 .one {@include span-columns(1); }

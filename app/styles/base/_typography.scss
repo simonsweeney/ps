@@ -7,6 +7,10 @@ body {
   line-height: $unitless-line-height;
 }
 
+em {
+    font-family: Gibson-LightIt;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $header-font-family;
   line-height: $header-line-height;
@@ -56,7 +60,7 @@ p {
 
 
 .text-s {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .text-xl {
@@ -152,6 +156,36 @@ cite {
 }
 
 
+
 .red-ul {
   border-bottom: 1px solid $red;
 }
+
+
+
+
+
+
+
+.Gibson-LightIt { 
+  font-family: Gibson-LightIt;
+  font-weight: normal;
+  font-style: normal;
+}
+.Gibson-BoldItalic { 
+  font-family: Gibson-BoldItalic;
+  font-weight: normal;
+  font-style: normal;
+}
+.Gibson-Bold { 
+  font-family: Gibson-Bold;
+  font-weight: normal;
+  font-style: normal;
+}
+.Gibson-Light { 
+  font-family: Gibson-Light;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
