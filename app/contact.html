@@ -3,30 +3,33 @@ layout: default
 title: ps
 ---
 
-<div style="background:url('/images/about.jpg') center center;height:450px;">BIG IMAGE</div>
+{% include shared/header.html %}
 
-<div class="bg-black">
+
+<div  class="banner show-on-desktops" style="background:url('/images/about.jpg')"></div>
+
+<div class="bg-black pad-top-s">
 	<section class="pad-top-m">
 		<div class="five off-one">
 			<h2>Sign up to our newsletter</h2>
-			<div class="nine"><input type="text" name="user" class="email"></div>
+			<div class="nine"><input type="text" name="user" class="email" placeholder="Your Email"></div>
 			<div class="three"><input type="submit" value="Submit" class="btn"></div>
 		</div>
 		<div class="four off-one">
 			<h2>Follow Pendulum Summit</h2>
-			<ul class="horizontal link-red">
-				<li><a href=""><span class="icon-facebook"></span></a></li>
-				<li><a href=""><span class="icon-twitter"></span></a></li>
-				<li><a href=""><span class="icon-youtube"></span></a></li>
-				<li><a href=""><span class="icon-linkedin"></span></a></li>
+			<ul class="horizontal link-red pad-top-s">
+				<li><a href="http://www.facebook.com/layapendulum" target="_blank"><span class="icon-facebook"></span></a></li>
+				<li><a href="http://twitter.com/pendulumsummit" target="_blank"><span class="icon-twitter"></span></a></li>
+				<li><a href="http://www.youtube.com/channel/UCCrWs2Ng73PZuKcUWh9ZzhA" target="_blank"><span class="icon-youtube"></span></a></li>
+				<li><a href="http://www.linkedin.com/company/pendulum-summit?trk=cp_followed_name_pendulum-summit" target="_blank"><span class="icon-linkedin"></span></a></li>
 			</ul>
 		</div>
 	</section>
 
-	<section class="pad-top-l pad-bottom-m text-white">
+	<section class="pad-top-l pad-bottom-l text-white">
 		<div class="three off-one">
 			<ul class="">
-				<li class="text-red"><strong>DUBLIN</strong></li>
+				<li style="color:#ea0027;"><strong>DUBLIN</strong></li>
 				<li>13 Upper Baggot Street</li>
 				<li>Dublin 4</li>
 				<li>&nbsp;</li>
@@ -35,7 +38,7 @@ title: ps
 		</div>
 		<div class="three">
 			<ul>
-				<li class="text-red"><strong>CORK</strong></li>
+				<li style="color:#ea0027;"><strong>CORK</strong></li>
 				<li>51 South Mall</li>
 				<li>Cork</li>
 				<li>&nbsp;</li>
@@ -44,7 +47,7 @@ title: ps
 		</div>
 		<div class="three">
 			<ul>
-				<li class="text-red"><strong>LONDON</strong></li>
+				<li style="color:#ea0027;"><strong>LONDON</strong></li>
 				<li>78 York Street</li>
 				<li>London  W1H 1DP</li>
 				<li>&nbsp;</li>

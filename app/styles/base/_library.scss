@@ -1,3 +1,9 @@
+.bg-white h2 a:hover {
+  color: $red;
+}
+.bg-gray h2 a:hover {
+  color: $red;
+}
 .nestImage {
 	width:90%;
 	margin-left:5%;
@@ -19,13 +25,34 @@ video#bgvid {
 }
 
 /* Speakers */
+
+#home-rotator-container {
+  height:600px;
+  background:$gray;
+}
+
+.slide {
+  height:550px;
+  background-repeat:no-repeat !important;
+}
+
+
+#prev, #next {
+  color: $red;
+}
+
 .person {
   min-height:330px;
 }
 
 .person p {
-  padding-top: 20px;
+  padding-top: 30px;
+  font-size:16px;
 }
+
+
+
+
 
 
 /* News */
@@ -42,19 +69,52 @@ video#bgvid {
   }
 }
 
+h2, .news h1 {
+  font-size: 27px; 
+  font-weight: bold;
+  margin-bottom: 24px;
+}
 
+h2 a, .news h1 a {
+  border-bottom: 1px solid $red;
+  color:white;
+}
+
+h2 a:hover, .news h1 a:hover {
+  border-bottom: 0px solid $red;
+  color:white;
+}
 
 
 /* Partners */
 
 .company li {
-  border: 1px solid white;
-  padding-top:60px;
-  padding-bottom:60px;
+  border: 1px solid white; 
+  min-height:150px;
 }
+
+
 
 
 /* Register */
 .price {
   font-weight:normal;
+}
+
+
+/* Article */
+h2, .article h1 {
+  font-size: 27px; 
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+h2 a, .article h1 a {
+  border-bottom: 1px solid $red;
+  color:$black;
+}
+
+h2 a:hover, .article h1 a:hover {
+  border-bottom: 0px solid $red;
+  color:$white;
 }

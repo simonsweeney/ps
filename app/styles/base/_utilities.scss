@@ -62,6 +62,18 @@
   padding: 0;
 }
 
+
+
+
+
+
+
+.banner {
+  background-position:center center;
+  height:600px;
+}
+
+
 .horizontal li {
   display: inline;
   list-style-type: none;
@@ -105,15 +117,20 @@
 .bg-black {
   background:$black;
 
-  h1, h2, h3, h4, h5, h6, p {
+  h1, h2, h3, h4, h5, h6 {
     color:$white;
   }
+}
+
+.bg-black-t {
+  background:$black;
+  opacity:0.9;
 }
 
 .bg-gray {
   background:$gray;
 
-  h1, h2, h3, h4, h5, h6, p {
+  h1, h2, h3, h4, h5, h6 {
     color:$black;
   }
 }
@@ -142,6 +159,14 @@
   border: 1px solid white;
   color: white;
   background:none;
+}
+
+.bg-white {
+  .btn:hover {
+  border: 1px solid $black;
+  color: $black;
+  background:none;
+}
 }
 
 
@@ -173,6 +198,19 @@
 
 
 
+/* BG’d */
+
+.spiral-l {
+  background-color: $gray !important;
+  background:url('/images/bg/spiral-l.png');
+  background-position:left;
+  background-repeat: no-repeat;
+  background-size: 3200px;
+
+}
+
+
+/* TABS */
 
 .tabs {
   li {
@@ -180,7 +218,7 @@
     width:50%;
   }
   li a:not(.active) {
-    border-bottom: 1px solid white;
+    border: 1px solid white;
   }
 
   li a.active {
@@ -191,9 +229,14 @@
     display:block;
     padding:20px 20px;
     background: none;
+    color:$red;
     
-    &:hover, &.active {
+    &.active {
       font-weight:bold;
+    }
+
+    &:hover {
+      color:$white;
     }
   }
 }
@@ -201,7 +244,16 @@
   border: 1px solid white;
   border-top:0px solid white ;
   div {
-    padding:20px;
+    padding-top:20px;
+    padding-left:60px;
+    padding-right:60px;
+    padding-bottom:30px;
     width: 100%;
+  }
+
+  li {
+    list-style-type: circle !important;
+    color:$white;
+    line-height:18px;
   }
 }

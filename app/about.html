@@ -3,12 +3,15 @@ layout: default
 title: ps
 ---
 
-<div style="background:url('/images/about.jpg') center center;height:450px;">BIG IMAGE</div>
+{% include shared/header.html %}
 
-<div class="bg-black">
+
+<div class="banner show-on-desktops" style="background:url('/images/about.jpg')"></div>
+
+<div class="bg-black text-white">
 	<section>
-		<div class="six off-one pad-top-l pad-bottom-l">
-			<h2>Entry Title</h2>
+		<div class="six off-one pad-top-m pad-bottom-l">
+			<h2>The Essence of Pendulum</h2>
 			<p>The Pendulum Summit is a daylong forum for discussion that was born from the premise that everyone from the successful business person to the aspiring academic strives for something more, and in essence tries to piece together those magic ingredients which will allow them to maximise their potential in all aspects of their lives, whilst maintaining  a positively balanced life.</p>
 
  			<p>We are in the business of conscious business and we operate in every sector because we believe that every person wants to be better than they were yesterday and so we empower them so they can live the life they dreamed of. At the Pendulum Summit our speakers showcase ‘Wisdom from Inspirational Minds’ in the hope that the thought leaders and visionary professionals in the audience will be inspired to lead a fulfilled, successful life. We want our delegates to leave the summit empowered with knowledge and courage to lead, not armed with ‘intangible ideas which they do not know how to execute.’ We want to play our part in restoring what has been lost in Ireland, instilling the country with a sense of ambition and courage, and making our tomorrow an exceptional place for our children.</p>
@@ -34,11 +37,11 @@ title: ps
 
 	<section>
 		<div class="two off-two">
-			<div class="circleSmall" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
+			<div class="circle" style="background-image: url('/images/speakers/Barry-O-Sullivan.jpg');"></div>
 		</div>
 		<div class="six">
 			<p><em>“I was really thrilled to speak at the Pendulum Summit. The quality of not just the speakers, but the attendees was incredibly high. I learned more in one day than I normally would in a week. It was a great way to start the year and will be a fixture in my calendar from now on.”</em><br />
-			<strong>—Barry O’Sullivan, Senior Vice President Cisc0</strong></p>
+			<strong>—Barry O'Sullivan, Senior Vice President, Cisco & Dragon on Dragons' Den</strong></p>
 		</div>
 	</section>
 
@@ -49,81 +52,58 @@ title: ps
 			<div class="wrap">
 				<div class="twelve">
 				  <ul class="tabs text-center" data-tabgroup="first-tab-group">
-				    <li><a href="#tab1" class="active">タブ 1</a></li>
-				    <li><a href="#tab2">タブ 2</a></li>
+				    <li><a href="#tab1" class="active">INDIVIDUAL</a></li>
+				    <li><a href="#tab2">COMPANY</a></li>
 				  </ul>
 				</div>
 				<div class="twelve">
 				  <section id="first-tab-group" class="tabgroup">
 				   <div id="tab1">
 				      <br />
-				      <p>1 私も今ちょうどどんな話院というものの日に始めでです。おそらく今が創作物もつるつるその所有だでかもにして来ないのも学習伴っませたて、どうには落ちましんでしょう。個性の考えですのはよほど事実にとうとうたたです。</p>
+				      <ol>
+				      	<li><p>Maximise your potential</p></li>
+						<li><p>Raise your performance levels</p></li>
+						<li><p>Master a positive work life balance</p></li>
+						<li><p>Jump out of your comfort zone</p></li>
+						<li><p>Develop a growth mindset</p></li>
+						<li><p>Increase emotional intelligence</p></li>
+						<li><p>Take the first steps to a successful, fulfilling life</p></li>
+					  </ol>
 				    </div>
 				    <div id="tab2">
 				      <br />
 				      <ol>
-				      	<li><p>Business Influencers</p></li>
-						<li><p>Business Influencers</p></li>
-						<li><p>Business Influencers</p></li>
-						<li><p>Business Influencers</p></li>
-						<li><p>Business Influencers</p></li>
+				      	<li><p>Increased efficiencies in processes, resulting in improved bottom line</p></li>
+						<li><p>Measurable ROI’s</p></li>
+						<li><p>Improved positive health increases productivity &amp; motivation</p></li>
+						<li><p>Increased employee retention &amp; morale</p></li>
+						<li><p>Dependable leadership</p></li>
+						<li><p>Stronger communications</p></li>
+						<li><p>Reward &amp; recognition for a job well done</p></li>
 					  </ol>
 				    </div>
 				  </section>
 				</div>
 			</div>
-
-
-			
 		</div>
 	</section>
-	
+</div>	
+<div class="bg-white text-black">
 	<section>
-		<div class="six off-one pad-top-s">
+		<div class="six off-one pad-top-m pad-bottom-s">
 			<h2>Previous Attendees Include&#8230;</h2>
 		</div>	
-		<div class="ten off-one pad-bottom-l">
-			<ul class="block-grid four-up company">
-				<li class="">
-					<p class="text-center">
-						Company
-					</p>
-				</li>
-				<li class="">
-					<p class="text-center">
-						Company
-					</p>
-				</li>
-				<li class="">
-					<p class="text-center">
-						Company
-					</p>
-				</li>
-				<li class="">
-					<p class="text-center">
-						Company
-					</p>
-				</li>
-				<li class="">
-					<p class="text-center">
-						Company
-					</p>
-				</li>
-				<li class="">
-					<p class="text-center">
-						Company
-					</p>
-				</li>
-				<li class="">
-					<p class="text-center">
-						Company
-					</p>
-				</li>
-				<li class="">
-					<p class="text-center">
-						Company
-					</p>
-				</li>
+		<div class="ten off-one pad-bottom-m">
+			<ul class="block-grid six-up company text-center">
+				<li class=""><img src="/images/partners/dcc.jpg"/></li>
+				<li class=""><img src="/images/partners/mii.jpg"/></li>
+				<li class=""><img src="/images/partners/tsbp.jpg"/></li>
+				<li class=""><img src="/images/partners/lh.png"/></li>
+				<li class=""><img src="/images/partners/iitd.jpg"/></li>
+				<li class=""><img src="/images/partners/ibec.jpeg"/></li>
+				<li class=""><img src="/images/partners/o4a.png"/></li>
+				<li class=""><img src="/images/partners/orr.jpg"/></li>
+				<li class=""><img src="/images/partners/rd.png"/></li>
 			</ul>
 		</div>
 	</section>

@@ -128,30 +128,3 @@ input[type="submit"]{
 :-ms-input-placeholder {  
    color: $white;
 }
-
-form .bg-gray {
-
-}
-
-.bg-gray fieldset, .bg-gray textarea,
-.bg-gray #{$all-text-inputs},
-.bg-gray select[multiple=multiple]{
-
-  &:hover {
-    border-color: $red;
-  }
-
-  &:focus {
-    border-color: $red;
-    box-shadow: none;
-    outline: none;
-  }
-}
-
-
-.bg-gray input[type="submit"]{
-  &:hover {
-    border: 1px solid $black !important;
-    color:$black;
-  }
-}

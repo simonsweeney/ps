@@ -3,35 +3,45 @@ layout: default
 title: ps
 ---
 
-<div style="background:url('/images/partners.jpg') center center;height:450px;">BIG IMAGE</div>
+{% include shared/header.html %}
 
-<div class="bg-black">
+<div class="show-on-desktops">
+<div class="banner show-on-desktops" style="background:url('/images/partners_alt.jpg');background-size:contain;background-position:center center"></div>
+
+<div class="bg-black text-white">
 	<section>
 		<div class="six off-four pad-top-l pad-bottom-xl">
 			<h2>Join us on our Journey</h2>
 			<p class="pad-bottom-s">Pendulum Partners are an integral part of the Pendulum Brand and they reflect the Pendulum Values. So if your company has honesty, integrity, creativity, and innovation as its core values then contact us to discuss our exciting new journey together.</p>
-			<a href="" class="btn">You can make a difference, together we can BE the difference!</a>
+			<a href="mailto:welcome@pendulumsummit.com" class="btn">You can make a difference, together we can BE the difference!</a>
 		</div>
 	</section>
+</div>
+<div class="bg-white text-black">
 
 	<section>
-		<div class="six off-four">
+		<div class="six off-four pad-top-m">
 			<h2>Thanks to our 2014 Sponsors</h2>
 		</div>
 
-		<div class="ten off-one pad-top-s pad-bottom-xl">
-			<ul class="block-grid four-up company text-center">
-				<li class="">Company</li>
-				<li class="">Company</li>
-				<li class="">Company</li>
-				<li class="">Company</li>
-				<li class="">Company</li>
-				<li class="">Company</li>
-				<li class="">Company</li>
-				<li class="">Company</li>
+	<div class="ten off-one pad-top-s pad-bottom-m">
+			<ul class="block-grid six-up company text-center">
+				<li class=""><img src="/images/partners/dcc.jpg"/></li>
+				<li class=""><img src="/images/partners/mii.jpg"/></li>
+				<li class=""><img src="/images/partners/tsbp.jpg"/></li>
+				<li class=""><img src="/images/partners/lh.png"/></li>
+				<li class=""><img src="/images/partners/iitd.jpg"/></li>
+				<li class=""><img src="/images/partners/ibec.jpeg"/></li>
+				<li class=""><img src="/images/partners/o4a.png"/></li>
+				<li class=""><img src="/images/partners/orr.jpg"/></li>
+				<li class=""><img src="/images/partners/rd.png"/></li>
 			</ul>
 		</div>
 	</section>
+</div>
+</div>
+
+
 
 
 {% include shared/register.html %}

@@ -3,77 +3,135 @@ layout: default
 title: ps
 ---
 
-<div style="background:url('/images/partners.jpg') center center;height:450px;">BIG IMAGE</div>
 
-<div class="bg-gray red-ul">
+{% include shared/header.html %}
+
+<div class="banner link-black" style="">
+<div id="home-rotator-container">
+        <div id="home-rotator">    
+            <div class="cycle-slideshow" 
+                data-cycle-fx=carousel
+                data-cycle-timeout="0"
+                data-cycle-prev="#prev"
+                data-cycle-next="#next"
+                data-cycle-carousel-visible=2
+                data-cycle-carousel-fluid=true
+                data-cycle-slides="> div"
+                >
+                <div class="text-s">
+	                <div class="slide" style="background-color:black !important;background:url('/images/speakers/jack-black-top.jpg');background-position:bottom left;background-size:contain;">
+	                </div>
+	                <div style="margin-left:80px;margin-top:20px;">
+		          	  <p><a href="/members/profile"><strong>Jack Black,</strong> Leading Authority on Personal Development</a></p>
+		        	</div>
+				</div>
+
+                <div class="text-s">
+	                <div class="slide" style="background-color:black !important;background:url('/images/speakers/chris-hadfield-top.jpg');background-position:bottom right;background-size:contain;">
+	                </div>
+	                <div class="text-right" style="margin-right:80px;margin-top:20px;">
+		            	<p><a href="/members/profile"><strong>Chris Hadfield,</strong> Astronaut</a></p>
+		            </div>
+				</div>
+               
+        </div>             
+    </div>
+</div>	
+
+</div>
+
+<div class="larr" style="position:absolute;top:280px;left:20px;"><a href="#" id="prev">&larr;</a></div>
+<div class="rarr" style="position:absolute;top:280px;right:20px;"><a href="#" id="next">&rarr;</a></div>
+
+<div class="bg-gray text-black">
 
 	<section>
 		<div class="six off-four pad-top-l pad-bottom-s">
-			<h2 class="red-ul">Speakers for 2015</h2>
+			<h2 class="">Speakers for 2015</h2>
 			<p>We ask the Pendulum speakers to pour their attributes into a metaphorical mixing bowl and shower the audience with truth and inspiration as they take them through a guided journey of their life experiences.
 			</p>
 			<p>Each speaker is asked to demonstrate how they used a combination of hard work, inspiration and motivation to overcome adversity and maintain a successful balanced life.</p>
 			<p><em>“In everyone's life, at some time, our inner fire goes out. It is then burst into flame by an encounter with another human being. We should all be thankful for those people who rekindle the inner spirit.“</em> <strong>—Albert Schweitzer</strong></p>
 		</div>
 	</section>
+
+</div>
+
+<div class="spiral-l red-ul">
 	<section>
-		<div class="ten off-one">
-			<ul class="block-grid four-up">
+		<div class="ten off-one pad-top-s">
+			<ul class="block-grid four-up link-black">
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
-					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
-					</p>
+					<a href="/members/profile">
+						<div class="circle" style="background-image: url('/images/speakers/Chris-Hadfield.jpg');"></div>
+						<p class="text-center">
+							<strong>Colonel Chris Hadfield</strong><br />
+							Canadian Astronaut
+						</p>
+					</a>
 				</li>
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
+					<a href="/members/profile">
+					<div class="circle" style="background-image: url('/images/speakers/kingsley-aikins.jpg');"></div>
 					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
+						<strong>Kingsley Aikins</strong><br />
+						(MC) Diaspora Expert
 					</p>
+					</a>
 				</li>
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
+					<a href="/members/profile">
+					<div class="circle" style="background-image: url('/images/speakers/frank-dick.jpg');"></div>
 					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
+						<strong>Dr. Frank Dick OBE</strong><br />
+						Leading Motivational Speaker
 					</p>
+					</a>
 				</li>
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
+					<a href="/members/profile">
+					<div class="circle" style="background-image: url('/images/speakers/miriam-ocallaghan.jpg');"></div>
 					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
+						<strong>Miriam O’Callaghan</strong><br />
+						(Guest Interviewer) Broadcaster &amp; Journalist
 					</p>
+					</a>
 				</li>
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
+					<a href="/members/profile">
+					<div class="circle" style="background-image: url('/images/speakers/jack-black.jpg');"></div>
 					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
+						<strong>Jack Black</strong><br />
+						Leading Authority on Personal Development
 					</p>
+					</a>
 				</li>
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
+					<a href="/members/profile">
+					<div class="circle" style="background-image: url('/images/speakers/john-mullins.jpg');"></div>
 					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
+						<strong>John Mullins</strong><br />
+						CEO Amarenco
 					</p>
+					</a>
 				</li>
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
+					<a href="/members/profile">
+					<div class="circle" style="background-image: url('/images/speakers/loretto-callaghan.jpg');"></div>
 					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
+						<strong>Loretto Callaghan</strong><br />
+						CEO &amp; Country Manager Novartis
 					</p>
+					</a>
 				</li>
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
+					<a href="/members/profile">
+					<div class="circle" style="background-image: url('/images/speakers/gurra-krantz.jpg');"></div>
 					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
+						<strong>Gurra Krantz</strong><br />
+						Leadership Expert
 					</p>
+					</a>
 				</li>
 			</ul>
 		</div>
@@ -86,62 +144,78 @@ title: ps
 	</section>
 	<section>
 		<div class="ten off-one pad-bottom-xl">
-			<ul class="block-grid four-up">
+			<ul class="block-grid four-up link-black">
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
-					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
-					</p>
+					<a href="">
+						<div class="circle" style="background-image: url('/images/speakers/Chris-Hadfield.jpg');"></div>
+						<p class="text-center">
+							<strong>Colonel Chris Hadfield</strong><br />
+							Canadian Astronaut
+						</p>
+					</a>
 				</li>
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
+					<a href="/members/profile">
+					<div class="circle" style="background-image: url('/images/speakers/kingsley-aikins.jpg');"></div>
 					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
+						<strong>Kingsley Aikins</strong><br />
+						(MC) Diaspora Expert
 					</p>
+					</a>
 				</li>
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
+					<a href="/members/profile">
+					<div class="circle" style="background-image: url('/images/speakers/frank-dick.jpg');"></div>
 					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
+						<strong>Dr. Frank Dick OBE</strong><br />
+						Leading Motivational Speaker
 					</p>
+					</a>
 				</li>
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
+					<a href="/members/profile">
+					<div class="circle" style="background-image: url('/images/speakers/miriam-ocallaghan.jpg');"></div>
 					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
+						<strong>Miriam O’Callaghan</strong><br />
+						(Guest Interviewer) Broadcaster &amp; Journalist
 					</p>
+					</a>
 				</li>
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
+					<a href="/members/profile">
+					<div class="circle" style="background-image: url('/images/speakers/jack-black.jpg');"></div>
 					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
+						<strong>Jack Black</strong><br />
+						Leading Authority on Personal Development
 					</p>
+					</a>
 				</li>
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
+					<a href="/members/profile">
+					<div class="circle" style="background-image: url('/images/speakers/john-mullins.jpg');"></div>
 					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
+						<strong>John Mullins</strong><br />
+						CEO Amarenco
 					</p>
+					</a>
 				</li>
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
+					<a href="/members/profile">
+					<div class="circle" style="background-image: url('/images/speakers/loretto-callaghan.jpg');"></div>
 					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
+						<strong>Loretto Callaghan</strong><br />
+						CEO &amp; Country Manager Novartis
 					</p>
+					</a>
 				</li>
 				<li class="person">
-					<div class="circle" style="background-image: url('http://media.tumblr.com/tumblr_lti1j6eb9E1qdjfkx.png');"></div>
+					<a href="/members/profile">
+					<div class="circle" style="background-image: url('/images/speakers/gurra-krantz.jpg');"></div>
 					<p class="text-center">
-						<strong>Speaker Name</strong><br />
-						Company
+						<strong>Gurra Krantz</strong><br />
+						Leadership Expert
 					</p>
+					</a>
 				</li>
 			</ul>
 		</div>

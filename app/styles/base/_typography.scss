@@ -22,21 +22,6 @@ h1 {
   font-size: $base-font-size * 2.25; // 16 * 2.25 = 36px
 }
 
-h2, .news h1 {
-  font-size: 27px; 
-  font-weight: bold;
-  margin-bottom: 24px;
-}
-
-h2 a, .news h1 a {
-  border-bottom: 1px solid $red;
-  color:white;
-}
-
-h2 a:hover, .news h1 a:hover {
-  border-bottom: 0px solid $red;
-  color:white;
-}
 
 h3 {
   font-size: $base-font-size * 1.75; // 16 * 1.75 = 28px
@@ -63,6 +48,12 @@ p {
   font-size: 16px;
 }
 
+.text-l {
+  font-size:36px;
+  line-height: 48px;
+  font-weight:normal;
+}
+
 .text-xl {
   font-size:100px;
   line-height: 120px;
@@ -70,7 +61,7 @@ p {
 }
 
 a {
-  @include transition(color 0.1s linear);
+  @include transition(color 0.2s linear);
   color: $base-link-color;
   text-decoration: none;
 
@@ -120,20 +111,10 @@ cite {
 
 /* color */
 
-.text-white {
-  color:$white;
-  p, h1, h2, h3, h4, h5, h6, li {
-    color:$white;
-  }
-}
+.text-white {color:$white;}
 .text-black {color:$black;}
 .text-gray {color:$gray;}
-.text-red {
-  color:$red;
-  p, h1, h2, h3, h4, h5, h6, li {
-    color:$red !important;
-  }
-}
+.text-red {color:$red;}
 
 /* links */
 
@@ -142,6 +123,22 @@ cite {
     color: $red;
     &:hover {
       color: $white;
+    }
+  }
+}
+.link-black {
+  a {
+    color: $black;
+    &:hover {
+      color: $red;
+    }
+  }
+}
+.link-white {
+  a {
+    color: $white;
+    &:hover {
+      color: $red;
     }
   }
 }
@@ -154,6 +151,7 @@ cite {
     border-bottom: 0px solid $red;
   }
 }
+
 
 
 
